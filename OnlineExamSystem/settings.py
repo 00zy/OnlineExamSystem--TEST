@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-cm4xh^mykeuu!lip9ef5$r4p1ba63nd5%5zvx(_6k&4qksdsv+'
 
 # 调试模式，如果项目没有部署到远程服务器，且DEBUG = True(线下模式，允许调试)
-DEBUG = True
+DEBUG = False
 
 # 设置允许哪些主机访问我们的django后台站点，
 # 如果项目上线部署到远程服务器，那就必须设置allow_host为本地的ipv4地址
